@@ -85,3 +85,13 @@ tool:
     installations:
     - home: "git"
       name: "Default"
+jobs:
+  - script: >
+      multibranchPipelineJob('pipeline-as-code') {
+          branchSources {
+              git {
+                  id = 'pipeline-as-code'
+                  remote('https://github.com/igorstojanovski/jenkins-pipeline-as-code')
+              }
+          }
+      }      
