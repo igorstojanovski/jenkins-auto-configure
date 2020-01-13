@@ -94,4 +94,7 @@ jobs:
                   remote('https://github.com/igorstojanovski/jenkins-pipeline-as-code')
               }
           }
-      }      
+          triggers {
+            periodic(1)
+          }
+      }
