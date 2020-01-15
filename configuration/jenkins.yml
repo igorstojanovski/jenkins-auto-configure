@@ -42,8 +42,6 @@ security:
     creationOfLegacyTokenEnabled: false
     tokenGenerationOnCreationEnabled: false
     usageStatisticsEnabled: true
-  downloadSettings:
-    useBrowser: false
   sSHD:
     port: -1
 unclassified:
