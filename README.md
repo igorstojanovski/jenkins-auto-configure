@@ -51,4 +51,8 @@ DslScriptLoader dslScriptLoader = new DslScriptLoader(jm)
 dslScriptLoader.runScript("folder('project-a')")
 ```
  
+ ## TO DO
+ This image does not solve a couple of problems:
+ * Monitoring is not set up
+ * Logs are not externalized
      
